@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+	body {
+  padding: 10px 10px;
+}
+table {
+  width: 100%; 
+  max-width: 700px;
+}
+input[type=d]  {
+  border: 1px solid #ccc;
+  color: #888;
+  margin: 0.5em;
+  vertical-align: middle;
+  outline: 0;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  width: calc(100% - 3em - 2px);
+  font-family: sans-serif;
+}
+
+.frm{
+	 padding-left: 33px;
+  margin-top: -20px;
+}
+input [type=radio]{
+	  margin-left: -3px;
+  margin-top: 18px;
+}
+</style>
+</head>
+<body>
+<div id="td">
+<table>
+  <tr>
+    <td>
+      <label for="date"> Set Date:</label>
+    </td>
+    <td>
+      <input type="d" placeholder="dd/mm/yyyy" />
+    </td>
+
+  </tr>
+  <tr>
+    <td>
+      <label for="time">Set Time:</label>
+    </td>
+    <td>
+      <input type="d" placeholder="00:00 PM" />
+    </td>
+  </tr>
+</table>
+</div>
+<p> Choose the date format</p>
+
+<form>
+<input type="radio" name="rb" value="dd/mm/yyyy"><div class="frm">dd/mm/yyyy</div><br>
+<input type="radio" name="rb" value="mm/dd/yyyy"><div class="frm">mm/dd/yyyy</div>
+</form>
+
+</body>
+</html>
